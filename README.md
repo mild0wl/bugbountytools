@@ -4,8 +4,8 @@ my bug hunitng tools
 
 ## recon method
 
-### subs
 ```bash
+# subs
 subfinder -d sub.com -silent -o subfinder.txt
 amass enum -active -brute -d sub.com -o amass-active.txt
 echo "sub.com" | assetfinder --subs-only | tee -a assetfinder.txt
